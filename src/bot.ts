@@ -63,6 +63,7 @@ const createBot = (): void => {
 		}, CONFIG.action.holdDuration);
 	});
 	bot.once('login', () => {
+		bot.chat(`/login ${CONFIG.client.password}`);
 		console.log(`AFKBot logged in ${bot.username}\n\n`);
 	});
 };
