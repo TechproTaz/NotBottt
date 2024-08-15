@@ -1,9 +1,8 @@
 {
   "client": {
-    "host": "GuraCraft.aternos.me",
-    "port": "19411",
-    "username": "Gura_chan",
-    "password": "SuckMyDick3069"
+    "host": "ussr_guns.aternos.me",
+    "port": "35020",
+    "username": "Gura_chan"
   },
 
   "! DO NOT EDIT BELOW !": "ONLY IF YOU KNOW WHAT YOU ARE DOING",
@@ -11,6 +10,6 @@
   "action": {
     "commands": ["forward", "back", "left", "right", "jump"],
     "holdDuration": 5000,
-    "retryDelay": 15000
+    "retryDelay": 5000
   }
 }
